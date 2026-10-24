@@ -1,15 +1,38 @@
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
-.venv/
-venv/
+
+# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
+.venv/
+venv/
 .pytest_cache/
-.ruff_cache/
-.coverage
+.mypy_cache/
+*.egg-info/
+
+# Node.js
 node_modules/
 dist/
+.vite/
 frontend/.vite/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+
+# Test coverage
+.coverage
+coverage/
+htmlcov/
+
+# Local databases
+*.sqlite3
